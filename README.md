@@ -1,16 +1,59 @@
-# Landforms AI
+# 🌍 Landforms AI
 
-This project is a simple Class 11 Geography chatbot UI for the Landforms chapter.
+A Class 11 Geography AI study assistant that answers questions about the **Landforms** chapter using Retrieval-Augmented Generation (RAG).
 
-## Files
-- `bot.html` — main page
-- `bot.css` — styling
-- `app.js` — chat logic and API calls
+## 🚀 Features
 
-## Run locally
-1. Open `bot.html` in a browser.
-2. Ensure the backend API is running and accessible.
-3. Update the `API_URL` in `app.js` if needed.
+- 📚 Answers questions from the provided Geography study material
+- 🤖 AI-powered question answering
+- 🔎 Retrieves relevant information from the PDF
+- 💬 Simple student-friendly responses
+- 🌐 HTML/CSS/JavaScript frontend
+- ⚡ FastAPI backend
+- ☁️ Google Colab-based backend
 
-## Notes
-This repository contains the frontend portion of the Landforms AI study assistant.
+## 🛠️ Tech Stack
+
+- Python
+- FastAPI
+- LangChain
+- Vector Database
+- LLM
+- HTML
+- CSS
+- JavaScript
+- Google Colab
+
+## 📁 Project Structure
+
+```text
+landforms-ai/
+│
+├── frontend/
+│   ├── index.html
+│   ├── bot.css
+│   └── app.js
+│
+├── backend/
+│   └── Untitled2.ipynb
+│
+├── README.md
+└── .gitignore
+```
+
+## 💡 How It Works
+
+1. The Geography study material is loaded into the backend.
+2. The content is divided into smaller chunks.
+3. The chunks are converted into embeddings.
+4. Relevant chunks are retrieved when a student asks a question.
+5. The retrieved content is provided to the language model.
+6. The AI generates a student-friendly answer based on the retrieved material.
+
+## 🎯 Project Goal
+
+The goal of this project is to explore how RAG-based AI systems can be used to create educational tools that help students understand their study material.
+
+## 👨‍💻 Author
+
+Built as a learning project while exploring AI, RAG, Python, and web development.
